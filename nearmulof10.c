@@ -1,11 +1,14 @@
 #include <stdio.h>
 int main()
 {
-     int a;
+     int a,c;
      printf("input\n");
      scanf("%d",&a);
      if(a%10==0)
-     printf("%d");
+     {
+	     c=a+10;
+	     printf("%d",c);
+     }
      else
      {
      while(a%10!=0)
