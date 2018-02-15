@@ -5,12 +5,12 @@ int main()
       char s[100];
        int i,k;
       printf("input\n");
-       gets(s);
+       scanf("%s",s),;
        printf("input limit\n");
        scanf("%d",&k);
        for(i=0;i<k;i++)
         {
-            printf("%s",s[i]);
+            printf("%c",s[i]);
           }
 	return 0;
 }
